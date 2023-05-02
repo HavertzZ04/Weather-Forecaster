@@ -17,7 +17,8 @@ body {
 }
 
 #left-container{
-    background-color: var(--bg);    
+    background-color: var(--bg);
+    backdrop-filter: blur(5px);
     border-radius: 1rem 0 0 1rem; 
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2); 
     color: #ffffff;
@@ -54,26 +55,23 @@ input {
     margin: 0.5rem auto;
 }
 
-#place-container{
+#place-container{ /*Agregar radio*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#city-img{
+#city-img{ /*Agregar radio*/
     position: relative;
-    width: 99%;
-    height: 55%;
+    width: 100%;
+    height: 5.5rem;
     padding: 0;
     border-radius: 0.5rem;
     object-fit: cover;
+    margin: 1.5rem 0 1.5rem 0;
+
 }
 
-#city{
-    position: absolute;
-    color: #ffffff;
-    font-size: 1.4rem; /*make this responsive*/
-}
 
 #right-container {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2); 
@@ -91,7 +89,7 @@ h1 {
 }
 
 #nav-bar {
-   margin: 2rem auto;
+   margin: 2.3rem auto 1.5rem auto;
 }
 
 #cards {
@@ -100,18 +98,31 @@ h1 {
     background-color: rgba(234, 234, 234, 0.875);
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .13); 
     backdrop-filter: blur(5px);
-    margin: 0rem 0.8rem 1rem 0.8rem;
+    margin: 0rem 1rem 1.6rem 0.8rem;
     padding: 0.5rem 0 0 0;
     
 }
 
 #week-days {
-    margin: 0 0.4rem 1rem 0.4rem;
+    margin: 0 0.4rem 0.8rem 0.4rem;
 }
 
 
+#myCarousel{
+    padding: 1rem 0 0 0;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0.8rem;
 
 
+}
+
+#imgCarousel{
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.216);
+    object-fit: cover;
+    width: 50%;
+
+}
 
 
 
