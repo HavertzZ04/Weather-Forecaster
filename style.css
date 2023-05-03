@@ -7,8 +7,8 @@
 
 }
 body {
-    background-image: url(images/img.png);
-    background-attachment: fixed;
+    background-image: url(images/darkbg.jpg);
+    background-size: cover;
 }
 
 #main-container {
@@ -45,6 +45,7 @@ input {
 }
 
 
+
 #temperature {
     font-size: 5.5rem;
     margin: 0 auto 0.4rem auto;
@@ -75,7 +76,7 @@ input {
 
 #right-container {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2); 
-    background-color: rgba(243, 243, 243, 0.265);
+    background-color: rgba(104, 104, 104, 0.265);
     backdrop-filter: blur(5px);
     border-radius: 0 1rem 1rem 0; 
 }
